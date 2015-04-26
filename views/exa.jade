@@ -1,0 +1,20 @@
+doctype html
+html(lang="en")
+    head
+        title=exmpale
+        script(type='text/javascript').
+            window.onload=function(){
+            console.log(111);
+            }
+    body
+        h1 example demo for jade
+        div#container.col
+          if youAreUsingJade
+            p jade is amazing
+          else
+            p get on it!
+        p.
+          Jade is a terse and simple
+          templating language with a
+          strong focus on performance
+          and powerful features.

@@ -1,0 +1,19 @@
+extends layout
+block content
+    h3.field.regheader #{title}
+    form.regform(method='post')
+        p.mess #{message}
+        div.item
+            label.label(for='username') 用户名
+            input(type='text',placeholder='输入注册用户名',id='username',name='username')
+        div.item
+            label.label(for='password') 用户密码
+            input(type='password',placeholder='用户密码',id='password',name='password')
+        div.item
+            label.label(for='passwordconf') 重复密码
+            input(type='password',placeholder='重复密码',id='passwordconf',name='passwordconf')
+        div.item
+            label.label
+            input(type='submit' id='sub',name='sub' value='注册')
+
+

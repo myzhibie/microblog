@@ -1,0 +1,17 @@
+extends layout
+block content
+    main.main
+        section.userintro
+            p
+                h2.usertitle #{title}-#{username}的个人主页
+            hr
+            if success
+                h3.usersuccess #{success}
+            form.submitform(method='post',action='/post')
+                input.article(type='text',name='article',id='article',placeholder='说出你此刻的想法...')
+                input.submit(type='submit',name='submit',value='发表')
+        section.show
+           ul
+               each val in posts
+                   li= val.user+"说:"
+                       p #{val.post}&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp#{val.updated}
