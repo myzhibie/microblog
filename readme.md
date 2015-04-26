@@ -5,7 +5,7 @@ MICROBLOG
 Introduction
 -------------
 This is a microblog sample that shows you how to coding with nodejs and make excellent web pages . This is a reconstruction version of the microblog project in [node.js web开发指南](http://book.douban.com/subject/10789820/).
-As known to all,this book publiced in 2012,so its style is too old in coding with nodejs.Between 2012 and 2015 ,nodejs changed a lot and more and more third-party libraies appeared in front of us.However ,this book just only show us the technical combination so far 2012.This is this project' intention that tells you how to coding in the technical combination of 2015.
+As known to all,this book publiced in 2012,so its style is too old in coding with nodejs.Between 2012 and 2015 ,nodejs changed a lot and more and more third-party libraies appeared in front of us.However ,this book just only show us the technical combination by the end of 2012.This is this project' intention that tells you how to coding in the technical combination of 2015.
 
 Key words 
 -------------
